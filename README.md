@@ -9,16 +9,16 @@ npm init --yes
 `
 ### Instalación de frameworks y dependencias
 `
-npm install express morgan cors jsonwebtoken
+npm install express morgan cors jsonwebtoken passport passport-local
 `
-- **express:**
-- **morgan:**
-- **cors:**
-- **jsonwebtoken:**
 
 ### Instalación de Cassandra
+
+[Instalación Java 8](https://www.java.com/es/download/ie_manual.jsp)
+[Instalación Python 2.7](https://www.python.org/download/releases/2.7/)
+
 `
-npm install express-cassandra
+npm install cassandra-driver
 `
 ### Instalación Dependencias de desarrollo
 `
@@ -46,21 +46,42 @@ instalacion de los productos, levantamiento del servidor
 ## Actividades asignadas por integrante
 ### Check de actividades realizadas y faltantes
 #### Julian 
-- [ ] Controladores
-- [ ] Rutas
+- [ ] Controladores - Creación inicial
+- [X] Rutas 
 #### Andres
-- [ ] Controladores
-- [ ] Rutas
+- [ ] Controladores - Creación inicial
+- [X] Rutas
 #### Jerson 
-- [ ] Modelo
+- [X] Modelo
 #### Jean
-- [ ] Middleware
+- [X] Middleware
 #### Mishell
-- [ ] Middleware
-- [ ] Readme
+- [X] Middleware
+- [X] Readme
 
 ## Diagrama de directorios (MVC)
-detalles de cada directorio 
-## Diagrama de datos NoSQL
+![MVC Diagram](MVC.png)
 
+    - database -> carpeta
+		- db.cql
+		- execute.cql
+	- src -> carpeta
+	 	- controllers -> carpeta
+			- controller.user.ts
+		- models -> carpeta
+			-connection.ts
+		- routes -> carpeta
+			- routes.admin.ts
+			- routes.interfaces.ts
+			- routes.users.ts
+		- app.ts
+		- index.ts
+	- .editorconfig
+	- .gitignore
+	- package-lock.json
+	- README.md
+	- tsconfig.json
+
+## Diagrama de datos NoSQL
+![Diagram NoSQL](nosql.png)
 
