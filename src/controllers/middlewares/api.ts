@@ -1,13 +1,18 @@
 import {Request, Response, NextFunction} from 'express';
 
-interface IUser{
-    user:string;
-}
+
+// interface IUser{
+//     user:string;
+// }
 
 class validationUser{
 
-    userValid(userId:){
 
+    static userValid(req:Request, res:Response, next:NextFunction){
+       return res.send('UserValid');
+      
     }
 
 }
+
+export default validationUser;

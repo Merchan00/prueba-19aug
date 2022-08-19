@@ -12,8 +12,9 @@ class Server extends ConfigServer {
       console.log("Server to Listen...")
     })
   }
+
+ 
 }
 
 const listenServer = new Server();
-
 listenServer.listen();
