@@ -9,6 +9,7 @@ abstract class ConfigServer {
     this.app.set('PORT', 3000);
     this.app.use(morgan('dev'));
     this.app.use(cors());
+  
   }
 }
 
