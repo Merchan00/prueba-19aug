@@ -13,8 +13,9 @@ class Server extends ConfigServer {
       console.log(`Server to Listen on ${this.PORT}`)
     })
   }
+
+ 
 }
 
 const listenServer = new Server();
-
 listenServer.listen();
