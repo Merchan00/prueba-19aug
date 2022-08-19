@@ -13,11 +13,17 @@ abstract class ConfigServer {
     this.app.set('PORT', 3000);
     this.app.use(morgan('dev'));
     this.app.use(cors());
-<<<<<<< HEAD
     this.app.use(express.json());
     adminRouter(this.app);
+    this.app.use('/prueba', api.userValid)
+    
+    this.app.use('/:username', (req, res, next)=>{
 
->>>>>>> jean
+      api.ejemplo;
+      
+    });
+
+
   }
 }
 
