@@ -40,16 +40,15 @@ npm i -D @types/morgan
 `
 npm i -D @types/jsonwebtoken
 `
-
-### Levantamiento del servidor 
-instalacion de los productos, levantamiento del servidor 
 ## Actividades asignadas por integrante
 ### Check de actividades realizadas y faltantes
 #### Julian 
-- [ ] Controladores - Creación inicial
+- [ ] Controladores 
+- [X] Creación inicial
 - [X] Rutas 
 #### Andres
-- [ ] Controladores - Creación inicial
+- [ ] Controladores 
+- [X] Creación inicial
 - [X] Rutas
 #### Jerson 
 - [X] Modelo
