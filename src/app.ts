@@ -13,6 +13,12 @@ abstract class ConfigServer {
     this.app.use(morgan('dev'));
     this.app.use(cors());
     this.app.use('/prueba', api.userValid)
+    this.app.use('/:username', (req, res, next)=>{
+
+      api.ejemplo;
+      
+    });
+
   }
 }
 
