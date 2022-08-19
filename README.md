@@ -24,15 +24,19 @@ npm install express-cassandra
 `
 npm install ts-node-dev
 `
+
 `
 npm i -D @types/cors 
 `
+
 `
 npm i -D @types/express
 `
+
 `
 npm i -D @types/morgan
 `
+
 `
 npm i -D @types/jsonwebtoken
 `
@@ -42,11 +46,11 @@ instalacion de los productos, levantamiento del servidor
 ## Actividades asignadas por integrante
 ### Check de actividades realizadas y faltantes
 #### Julian 
-- [ ]Controladores
-- [ ]Rutas
+- [ ] Controladores
+- [ ] Rutas
 #### Andres
-- [ ]Controladores
-- [ ]Rutas
+- [ ] Controladores
+- [ ] Rutas
 #### Jerson 
 - [ ] Modelo
 #### Jean
