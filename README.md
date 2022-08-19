@@ -9,11 +9,10 @@ npm init --yes
 `
 ### Instalación de frameworks y dependencias
 `
-npm install express morgan ejs cors jsonwebtoken
+npm install express morgan cors jsonwebtoken
 `
 - **express:**
 - **morgan:**
-- **ejs:**
 - **cors:**
 - **jsonwebtoken:**
 
@@ -21,15 +20,30 @@ npm install express morgan ejs cors jsonwebtoken
 `
 npm install express-cassandra
 `
-### Instalación nodemon
+### Instalación Dependencias de desarrollo
 `
-npm install ts-node-dev --save-dev
+npm install ts-node-dev
+`
+`
+npm i -D @types/cors 
+`
+`
+npm i -D @types/express
+`
+`
+npm i -D @types/morgan
+`
+`
+npm i -D @types/jsonwebtoken
 `
 
 ### Levantamiento del servidor 
 instalacion de los productos, levantamiento del servidor 
 ## Actividades asignadas por integrante
 ### Check de actividades realizadas y faltantes
+Julian y Andres - controladores y rutas
+Jerson - modelos
+mishell y jean - middleware
 
 ## Diagrama de directorios (MVC)
 detalles de cada directorio 
