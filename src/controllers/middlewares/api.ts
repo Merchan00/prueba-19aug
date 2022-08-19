@@ -4,3 +4,10 @@ interface IUser{
     user:string;
 }
 
+class validationUser{
+
+    userValid(userId:){
+
+    }
+
+}
