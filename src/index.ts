@@ -1,4 +1,5 @@
 import ConfigServer from "./app";
+import './models/connection.ts'
 
 class Server extends ConfigServer {
   private PORT:number;
@@ -9,7 +10,7 @@ class Server extends ConfigServer {
 
   public listen(){
     this.app.listen(this.PORT, ()=>{
-      console.log("Server to Listen...")
+      console.log(`Server to Listen on ${this.PORT}`)
     })
   }
 }
