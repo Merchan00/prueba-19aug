@@ -41,9 +41,19 @@ npm i -D @types/jsonwebtoken
 instalacion de los productos, levantamiento del servidor 
 ## Actividades asignadas por integrante
 ### Check de actividades realizadas y faltantes
-Julian y Andres - controladores y rutas
-Jerson - modelos
-mishell y jean - middleware
+#### Julian 
+- [ ]Controladores
+- [ ]Rutas
+#### Andres
+- [ ]Controladores
+- [ ]Rutas
+#### Jerson 
+- [ ] Modelo
+#### Jean
+- [ ] Middleware
+#### Mishell
+- [ ] Middleware
+- [ ] Readme
 
 ## Diagrama de directorios (MVC)
 detalles de cada directorio 
